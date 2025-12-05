@@ -17,20 +17,10 @@
 	"entrypoints": {
 		"main": [
 			"paeddym.porkteleport.PorkTeleport"
-		],
-		"client": [
-			"paeddym.porkteleport.PorkTeleportClient"
 		]
 	},
-	"mixins": [
-		"porkteleport.mixins.json",
-		{
-			"config": "porkteleport.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
-		"fabricloader": ">=0.18.1",
+		"fabricloader": ">=0.17.3",
 		"minecraft": "~1.21.8",
 		"java": ">=21",
 		"fabric-api": "*"
