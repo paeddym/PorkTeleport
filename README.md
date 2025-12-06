@@ -2,7 +2,7 @@
 - This mod does more or less exactly what you expect
 
 ## Installation
-- Just drop the jar file into your (or your servers) mods file
+- Just drop the jar file into your (or your servers) mods folder
  
 ## Dependencies
 - Fabric API
